@@ -179,11 +179,11 @@
     .mainmenu-area #primary_menu ul.nav.navbar-nav li.active a,
     .mainmenu-area #primary_menu ul.nav.navbar-nav li a:hover {
         background-color: #ffffff;
-        color: #5e88fc;
+        color: #787878;
     }
     /*-- Home-Area --*/
     .home-area {
-        padding-top: 120px;
+        padding-top: 160px;
         padding-bottom: 100px;
         margin-bottom: 0;
     }
@@ -261,6 +261,28 @@
     .comments-list .comment .comment-pic {
         position: static;
         margin-bottom: 30px;
+    }
+
+    /*Adding*/
+    .page-name {
+        font-size:34px;
+        font-weight: 600;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .about-space {
+        height: 0;
+    }
+
+    .footer-bottom {
+        font-size: 16px;
+    }
+
+    .footer-box .box-icon {
+        margin-bottom: 8px;
     }
 }
 
