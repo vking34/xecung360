@@ -20,10 +20,13 @@
     <link rel="stylesheet" href="css/animate.css">
     <!-- Main-Stylesheets -->
     <link rel="stylesheet" href="css/normalize.css">
-<!--    <link rel="stylesheet" href="css/slider.css">-->
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/responsive.css">
+<!--    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
     <!--[if lt IE 9]>
     <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -44,7 +47,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="Logo"></a>
+            <a class="navbar-brand" href="https://www.youtube.com/channel/UCAwudRVtbPqZ2icv59W_xbg?sub_confirmation=1"><img src="images/logo.jpg" alt="Logo"></a>
         </div>
         <div class="collapse navbar-collapse" id="primary_menu">
             <ul class="nav navbar-nav mainmenu">
@@ -74,59 +77,88 @@
         <!--            App</a>-->
     </div>
 </header>
+
 <!-- Home-Area-End -->
 <!-- About-Area -->
-<section class="section-padding" id="about_page">
+<div id="about_page"></div>
+<div class="car-top-space"></div>
+<section class="car-section section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-title text-center">
+                    <h5 class="car-title">Danh sách xe</h5>
+                </div>
+            </div>
+        </div>
+        <div class="row car-description">
+            <p>Dưới đây là một số mẫu xe nổi bật, còn rất rất nhiều mẫu xe thuộc tất cả chủng loại và những hãng xe khác nhau từ 2 - 9 chỗ.<br/>Tìm hiểu thêm trên kênh youtube <a style="color: #3688c1;" href="https://www.youtube.com/channel/UCAwudRVtbPqZ2icv59W_xbg">Xế Cưng 360</a></p>
+        </div>
+    </div>
+    <div class="space-30"></div>
+    <div class="container-fluid">
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img class="car-image" src="images/xe03.jpg" >
+        </div>
 
-<!--    <div class="slideshow-container">-->
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img class="car-image" src="images/xe04.jpg" >
+        </div>
 
-<!--        <div class="mySlides ">-->
-<!--            <div class="numbertext">1 / 5</div>-->
-<!--            <img class="car-image" src="images/xe00.jpg" style="width:100%">-->
-<!--            <div class="text">Camry </div>-->
-<!--        </div>-->
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img class="car-image" src="images/xe00.jpg" >
+        </div>
 
-<!--        <div class="mySlides ">-->
-<!--            <div class="numbertext">2 / 5</div>-->
-<!--            <img class="car-image" src="images/xe01.jpg" style="width:100%">-->
-<!--            <div class="text">Caption Two</div>-->
-<!--        </div>-->
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img class="car-image" src="images/xe01.jpg" >
+        </div>
 
-<!--        <div class="mySlides ">-->
-<!--            <div class="numbertext">3 / 5</div>-->
-<!--            <img class="car-image" src="images/xe02.jpg" style="width:100%">-->
-<!--            <div class="text">Caption Three</div>-->
-<!--        </div>-->
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img class="car-image" src="images/xe02.jpg" >
+        </div>
 
-<!--        <div class="mySlides ">-->
-<!--            <div class="numbertext">4 / 5</div>-->
-<!--            <img class="car-image" src="images/xe03.jpg" style="width:100%">-->
-<!--            <div class="text">Caption Three</div>-->
-<!--        </div>-->
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img class="car-image" src="images/xe05.jpg" >
+        </div>
 
-<!--        <div class="mySlides ">-->
-<!--            <div class="numbertext">5 / 5</div>-->
-<!--            <img class="car-image" src="images/xe04.jpg" style="width:100%">-->
-<!--            <div class="text">Caption Three</div>-->
-<!--        </div>-->
-<!--        &lt;!&ndash; Next and previous buttons &ndash;&gt;-->
-<!--        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>-->
-<!--        <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
 
-<!--    </div>-->
-<!--    <br>-->
+        <div class="caption-container">
+            <p class="car-name" id="caption"></p>
+        </div>
 
-<!--    <div style="text-align:center">-->
-<!--        <span class="dot" onclick="currentSlide(1)"></span>-->
-<!--        <span class="dot" onclick="currentSlide(2)"></span>-->
-<!--        <span class="dot" onclick="currentSlide(3)"></span>-->
-<!--        <span class="dot" onclick="currentSlide(4)"></span>-->
-<!--        <span class="dot" onclick="currentSlide(5)"></span>-->
-<!--    </div>-->
+        <div class="row car-list">
+            <div class="column">
+                <img class="demo cursor" src="images/xe03.jpg" style="width:100%" onclick="currentSlide(1)" alt="Mazda 3 AT 2004 | Giá rẻ: 228tr">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/xe04.jpg" style="width:100%" onclick="currentSlide(2)" alt="BMW 325i | Giá rẻ: 185tr">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor" src="images/xe00.jpg" style="width:100%" onclick="currentSlide(3)" alt="Toyota Camry 2.4G 2002">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/xe01.jpg" style="width:100%" onclick="currentSlide(4)" alt="Ford Mondeo 2003">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/xe02.jpg" style="width:100%" onclick="currentSlide(5)" alt="Toyota Innova G 2006 | Giá rẻ: 275tr">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/xe05.jpg" style="width:100%" onclick="currentSlide(6)" alt="Kia Forte 2012 AT 1.6 | Giá rẻ: 375tr">
+            </div>
+        </div>
+    </div>
 
 </section>
 <!-- About-Area-End -->
-
 <!-- Footer-Area -->
 <footer class="footer-area" id="contact_page">
 
@@ -147,7 +179,7 @@
                         <div class="box-icon">
                             <span class="lnr lnr-map-marker"></span>
                         </div>
-                        <p>ĐT 388, Kinh Môn<br/> Hải Dương </p>
+                        <p class="contact-content">ĐT 388, Kinh Môn<br/> Hải Dương </p>
                     </div>
                     <div class="space-30 hidden visible-xs"></div>
                 </div>
@@ -156,7 +188,7 @@
                         <div class="box-icon">
                             <span class="lnr lnr-phone-handset"></span>
                         </div>
-                        <p>0395.818.688 <br/> 0916.191.093</p>
+                        <p class="contact-content">0395.818.688 <br/> 0916.191.093</p>
                     </div>
                     <div class="space-30 hidden visible-xs"></div>
                 </div>
@@ -165,8 +197,7 @@
                         <div class="box-icon">
                             <span class="lnr lnr-envelope"></span>
                         </div>
-                        <p>lamthieuthien@gmail.com
-                        </p>
+                        <p class="contact-content">lamthieuthien@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -188,7 +219,7 @@
 <script src="js/magnific-popup.min.js"></script>
 <script src="js/wow.min.js"></script>
 <!--Main-active-JS-->
-<!--<script src="js/sliders.js"></script>-->
+<script src="js/sliders.js"></script>
 <script src="js/main.js"></script>
 </body>
 

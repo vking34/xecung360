@@ -212,8 +212,12 @@ input:-webkit-autofill:focus {
 }
 
 .section-padding {
-    padding-top: 100px;
+    /*padding-top: 90px;*/
     padding-bottom: 100px;
+}
+
+.car-top-space {
+    height: 90px;
 }
 
 .upper {
@@ -348,6 +352,7 @@ input:-webkit-autofill:focus {
     text-align: center;
     float: none;
     display: block;
+    margin-left: 9%;
 }
 
 .mainmenu-area ul.mainmenu li {
@@ -406,6 +411,29 @@ input:-webkit-autofill:focus {
     transform: translateY(-4px);
 }
 
+.page-title .car-title {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #6f6f6f;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.text-center.page-title .car-title:before,
+.page-title .car-title:after {
+    content: '';
+    width: 50px;
+    height: 1px;
+    display: inline-block;
+    background-color: #6f6f6f;
+    margin: 0 15px;
+    -webkit-transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    transform: translateY(-4px);
+}
+
 /*-- 7. Home-Area --*/
 
 .home-area {
@@ -413,7 +441,7 @@ input:-webkit-autofill:focus {
     background: url('images/xecung-cover.jpg') no-repeat scroll center bottom / cover;
     padding: 22vh 0;
     color: #ffffff;
-    margin-bottom: 100px;
+    /*margin-bottom: 70px;*/
     text-align: center;
 }
 
@@ -624,8 +652,7 @@ input:-webkit-autofill:focus {
 
 /* Adding */
 .car-image {
-    width: 1920px;
-    height: 750px;
+    height: 400px;
 }
 
 .page-name {
@@ -640,4 +667,12 @@ input:-webkit-autofill:focus {
 
 .about-space {
     height: 10px;
+}
+
+.car-description {
+    padding: 0 28%;
+    text-align: center;
+    color: #6f6f6f;
+    font-size: 16px;
+    font-weight: 600;
 }

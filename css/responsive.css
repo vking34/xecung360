@@ -143,7 +143,7 @@
         padding: 8px 30px;
     }
     .section-padding {
-        padding-top: 60px;
+        /*padding-top: 60px;*/
         padding-bottom: 60px;
     }
     .angle:after {
@@ -284,6 +284,61 @@
     .footer-box .box-icon {
         margin-bottom: 8px;
     }
+
+    .car-top-space {
+        height: 90px;
+    }
+
+    .car-section .container-fluid {
+        margin: 0;
+    }
+
+    .car-description {
+        padding: 0 7%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .car-section .mySlides {
+        height: 226px;
+    }
+
+    .car-image {
+        height: 226px;
+    }
+    .caption-container {
+        padding: 0;
+    }
+
+    .car-name {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .contact-content{
+        font-size: 14px;
+    }
+
+    /*.footer-box .box-icon {*/
+    /*    width: 75px;*/
+    /*    height: 75px;*/
+    /*    margin: auto auto 15px auto;*/
+    /*    text-align: center;*/
+    /*    line-height: 75px;*/
+    /*    color: #ffffff;*/
+    /*    font-size: 20px;*/
+    /*    background: rgb(156, 156, 156);*/
+    /*    background: -webkit-linear-gradient(45deg, rgb(52, 52, 52) 0%, rgb(172, 177, 191) 100%);*/
+    /*    background: -o-linear-gradient(45deg, rgb(52, 52, 52) 0%, rgb(172, 177, 191) 100%);*/
+    /*    background: linear-gradient(45deg, rgb(52, 52, 52) 0%, rgb(172, 177, 191) 100%);*/
+    /*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);*/
+    /*    border-radius: 100%;*/
+    /*    position: relative;*/
+    /*    z-index: 1;*/
+    /*    -webkit-transition: 0.3s;*/
+    /*    -o-transition: 0.3s;*/
+    /*    transition: 0.3s;*/
+    /*}*/
 }
 
 /* Wide Mobile Layout: 480px. */
