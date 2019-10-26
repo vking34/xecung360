@@ -142,10 +142,7 @@
     .bttn-white {
         padding: 8px 30px;
     }
-    .section-padding {
-        /*padding-top: 60px;*/
-        padding-bottom: 60px;
-    }
+
     .angle:after {
         height: 60px;
     }
@@ -264,6 +261,15 @@
     }
 
     /*Adding*/
+
+    .mainmenu-area ul.mainmenu {
+        margin-left: 0;
+    }
+
+    .navbar-nav {
+        margin: 7.5px 0;
+    }
+
     .page-name {
         font-size:34px;
         font-weight: 600;
@@ -319,26 +325,13 @@
         font-size: 14px;
     }
 
-    /*.footer-box .box-icon {*/
-    /*    width: 75px;*/
-    /*    height: 75px;*/
-    /*    margin: auto auto 15px auto;*/
-    /*    text-align: center;*/
-    /*    line-height: 75px;*/
-    /*    color: #ffffff;*/
-    /*    font-size: 20px;*/
-    /*    background: rgb(156, 156, 156);*/
-    /*    background: -webkit-linear-gradient(45deg, rgb(52, 52, 52) 0%, rgb(172, 177, 191) 100%);*/
-    /*    background: -o-linear-gradient(45deg, rgb(52, 52, 52) 0%, rgb(172, 177, 191) 100%);*/
-    /*    background: linear-gradient(45deg, rgb(52, 52, 52) 0%, rgb(172, 177, 191) 100%);*/
-    /*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);*/
-    /*    border-radius: 100%;*/
-    /*    position: relative;*/
-    /*    z-index: 1;*/
-    /*    -webkit-transition: 0.3s;*/
-    /*    -o-transition: 0.3s;*/
-    /*    transition: 0.3s;*/
-    /*}*/
+    .contact-top-space {
+        height: 79px;
+    }
+
+    .phone-icon {
+        margin-right: 4px;
+    }
 }
 
 /* Wide Mobile Layout: 480px. */
