@@ -146,7 +146,7 @@
     /* Preloader Js
     ===================*/
     $(window).on("load", function () {
-        $('.preloader').fadeOut(1500);
+        $('.preloader').fadeOut(1000);
         /*WoW js Active
         =================*/
         new WOW().init({
