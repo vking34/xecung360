@@ -77,6 +77,16 @@
     .angle:after {
         height: 80px;
     }
+    /* Adding */
+
+    .car-section .container-fluid {
+        margin: 0 16%;
+    }
+
+    .car-description {
+        padding: 0 14%;
+    }
+
 }
 
 /* Tablet Layout: 768px. */
@@ -124,6 +134,16 @@
     }
     .angle:after {
         height: 80px;
+    }
+
+    /* Adding */
+
+    .car-section .container-fluid {
+        margin: 0 4%;
+    }
+
+    .car-description {
+        padding: 0 17%;
     }
 }
 
@@ -306,11 +326,11 @@
     }
 
     .car-section .mySlides {
-        height: 226px;
+        height: auto;
     }
 
     .car-image {
-        height: 226px;
+        height: auto;
     }
     .caption-container {
         padding: 0;
@@ -334,6 +354,22 @@
     }
 }
 
-/* Wide Mobile Layout: 480px. */
+/* Wide Mobile Layout: 320px. */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (max-width: 321px) {
+    .car-description {
+        padding: 0 13%;
+    }
+
+    .page-title .car-title {
+        font-size: 14px;
+    }
+
+    .car-description {
+        font-size: 11px;
+    }
+
+    .small-car {
+        margin-top: -5px;
+    }
+}

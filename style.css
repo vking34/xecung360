@@ -676,6 +676,10 @@ input:-webkit-autofill:focus {
     color: #ececec;
 }
 
+.small-car {
+    width: 100%;
+}
+
 .phone-icon{
     margin-right: 2px;
 }
