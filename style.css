@@ -212,9 +212,12 @@ input:-webkit-autofill:focus {
 }
 
 .car-top-space {
-    height: 100px;
+    height: 85px;
 }
 
+.car-body-space {
+    height: 15px;
+}
 .upper {
     text-transform: uppercase;
 }
